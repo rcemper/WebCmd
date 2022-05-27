@@ -1,5 +1,5 @@
 ## WebCommand 
-There is a polular package "WebTerminal" it is excellent in most situations.   
+There is a popular package "WebTerminal". It is excellent in most situations.   
 Except:   
 - running system commands in your operating shell is not so easy    
 - as it communicates to the IRIS host over HTTP and WSS it consumes 2 connections   
@@ -35,10 +35,9 @@ docker-compose exec iris iris session iris
 
  ![](https://raw.githubusercontent.com/rcemper/IRIS-fast-ECP-setup/master/CodeQuality.JPG)
 
+[Article on DC](https://community.intersystems.com/post/webcommand)
 [Demo Server SMP](https://webcommand.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
 [Demo Server WebTerminal](https://webcommand.demo.community.intersystems.com/terminal/)    
         
 **Code Quality**   
-<img width="85%" src="
-https://user-images.githubusercontent.com/31236645/147383045-964967ea-a7ba-4357-9012-1930c58b1806.png
-">
+<img width="85%" src="https://community.intersystems.com/sites/default/files/inline/images/images/codequality.jpgom/sites/default/files/inline/images/images/codequality.jpg)">
