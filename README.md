@@ -35,7 +35,8 @@ docker-compose exec iris iris session iris
 
  ![](https://raw.githubusercontent.com/rcemper/IRIS-fast-ECP-seeQuality.JPG)
 
-[Article on DC](https://community.intersystems.com/post/webcommand)
+[Article on DC](https://community.intersystems.com/post/webcommand)    
+
 [Demo Server SMP](https://webcommand.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
 [Demo Server WebTerminal](https://webcommand.demo.community.intersystems.com/terminal/)    
         
