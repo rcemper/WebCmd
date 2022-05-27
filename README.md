@@ -25,7 +25,7 @@ docker-compose up -d --build
 ```
 ## How to Test it
 
-![](http://localhost:42773/csp/user/webcmd.csp)   
+http://localhost:42773/csp/user/webcmd.csp   
 
 **[or use Online Demo](https://webcommand.demo.community.intersystems.com/csp/user/webcmd.csp) :**
 
