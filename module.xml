@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="run-container-command-execution.ZPM">
+  <Document name="webcommand.ZPM">
     <Module>
-      <Name>run-container-command-execution</Name>
-	  <Description>Run Command in Container</Description> 
+      <Name>webcommand</Name>
       <Version>0.0.1</Version>
+      <Description>Slim Command from Web</Description>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="zrccx.MAC"/>
+      <CSPApplication 
+        Url="/user"
+        MatchRoles=":{$dbrole}"
+        PasswordAuthEnabled="1"
+        UnauthenticatedEnabled="0"
+        SourcePath="/csp"
+        DeployPath="{$cspdir}/user"
+        ServeFiles="1"
+        Recurse="1"
+        CookiePath="/user"
+      />
     </Module>
   </Document>
 </Export>
