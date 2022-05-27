@@ -25,20 +25,26 @@ docker-compose up -d --build
 ```
 ## How to Test it
 
-```
-docker-compose exec iris iris session iris
-```
+![](http://localhost:42773/csp/user/webcmd.csp)   
 
 **[or use Online Demo](https://webcommand.demo.community.intersystems.com/csp/sys/%25CSP.Portal.Home.zen) :**
 
-### Example 1 
+### Examples
 
- ![](https://raw.githubusercontent.com/rcemper/IRIS-fast-ECP-seeQuality.JPG)
+- Just a simple loop in ObjectScript   
+<img width="50%" src="https://community.intersystems.com/sites/default/files/inline/images/images/image(3922).png">    
+
+- Directory listing inside container
+ <img width="50%" src="https://community.intersystems.com/sites/default/files/inline/images/images/image(3923).png">   
+ 
+ - File Dump
+ <img width="50%" src="https://community.intersystems.com/sites/default/files/inline/images/images/image(3924).png">   
+
 
 [Article on DC](https://community.intersystems.com/post/webcommand)    
 
 [Demo Server SMP](https://webcommand.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
-[Demo Server WebTerminal](https://webcommand.demo.community.intersystems.com/terminal/)    
+[Demo Server WebCommand](https://webcommand.demo.community.intersystems.com/csp/user/webcmd.csp)    
         
 **Code Quality**   
 <img width="85%" src="https://community.intersystems.com/sites/default/files/inline/images/images/codequality.jpg">
