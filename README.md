@@ -27,7 +27,7 @@ docker-compose up -d --build
 
 ![](http://localhost:42773/csp/user/webcmd.csp)   
 
-**[or use Online Demo](https://webcommand.demo.community.intersystems.com/csp/sys/%25CSP.Portal.Home.zen) :**
+**[or use Online Demo](https://webcommand.demo.community.intersystems.com/csp/user/webcmd.csp) :**
 
 ### Examples
 
