@@ -6,7 +6,7 @@ Except:
   With only 5 connections in the community license (and the "Grace Period of CSP")   
   you can hit the limits rater fast: 2 Webterminals + 1 SMP and you are done    
 - WebCommand is a pure CSP page consuming just 1 single connection    
-- WebComamnd allows multiple ObjcetScript command lines running in sequence    
+- WebCommand allows multiple ObjectScript command lines running in sequence    
 - With **$** or **!** your command goes to Operating System same as with default terminal    
 - It is no full terminal emulation but a slim helper for debugging     
 - And it is an excellent place to apply ["One Liners"](https://community.intersystems.com/post/one-liners-useful-objectscript-commands-one-line-long)    
