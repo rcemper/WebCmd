@@ -7,14 +7,14 @@
       <Description>Slim Command from Web</Description>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-	    <FileCopy Name="csp/" Target="${cspdir}webcmd"/>
-	    <Invokes>
-	      <Invoke Class="%SYSTEM.OBJ" Method="ImportDir">
+      <FileCopy Name="csp/" Target="${cspdir}webcmd"/>
+      <Invokes>
+	<Invoke Class="%SYSTEM.OBJ" Method="ImportDir">
           <Arg>${cspdir}webcmd</Arg>
           <Arg>*.csp</Arg>
-		      <Arg>c</Arg>
-        </Invoke>
-      </Invokes>
+          <Arg>c</Arg>
+       </Invoke>
+     </Invokes>
     </Module>
   </Document>
 </Export>
