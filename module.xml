@@ -3,21 +3,18 @@
   <Document name="webcommand.ZPM">
     <Module>
       <Name>webcommand</Name>
-      <Version>0.0.1</Version>
+      <Version>0.0.2</Version>
       <Description>Slim Command from Web</Description>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <CSPApplication 
-        Url="/user"
-        MatchRoles=":{$dbrole}"
-        PasswordAuthEnabled="1"
-        UnauthenticatedEnabled="0"
-        SourcePath="/csp"
-        DeployPath="{$cspdir}/user"
-        ServeFiles="1"
-        Recurse="1"
-        CookiePath="/user"
-      />
+	    <FileCopy Name="csp/" Target="${cspdir}webcmd"/>
+	    <Invokes>
+	      <Invoke Class="%SYSTEM.OBJ" Method="ImportDir">
+          <Arg>${cspdir}webcmd</Arg>
+          <Arg>*.csp</Arg>
+		      <Arg>c</Arg>
+        </Invoke>
+      </Invokes>
     </Module>
   </Document>
 </Export>
