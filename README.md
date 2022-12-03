@@ -42,9 +42,3 @@ http://localhost:42773/csp/user/webcmd.csp
 
 
 [Article on DC](https://community.intersystems.com/post/webcommand)    
-
-[Demo Server SMP](https://webcommand.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
-[Demo Server WebCommand](https://webcommand.demo.community.intersystems.com/csp/user/webcmd.csp)    
-        
-**Code Quality**   
-<img width="85%" src="https://community.intersystems.com/sites/default/files/inline/images/images/codequality.jpg">
