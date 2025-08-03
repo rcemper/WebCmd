@@ -3,7 +3,7 @@
   <Document name="webcommand.ZPM">
     <Module>
       <Name>webcommand</Name>
-      <Version>0.0.2</Version>
+      <Version>0.0.5</Version>
       <Description>Slim Command from Web</Description>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
@@ -18,3 +18,4 @@
     </Module>
   </Document>
 </Export>
+
